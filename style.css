@@ -1,0 +1,61 @@
+/*
+Theme Name:         Material Design Bootstrap
+Author:             Jobayer Al Mahmud Ahad
+Author URI:         http://www.jobayer.me
+Description:        A dedicated blog site built with MDB
+Version:            1.0
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:        Ahad
+Tags:               blog, one-column, two-columns, right-sidebar, grid-layout, flexible-header, custom-background, custom-header, custom-menu, footer-widgets, full-width-template, sticky-post, theme-options, translation-ready
+*/
+
+.intro-2 {
+
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+        background-size: auto;
+    background-size: cover;
+
+}
+
+html, body, .header, .view {
+    height: 100%;
+}
+
+#wpadminbar, .comment-reply-title, .screen-reader-text {
+    display: none;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.texts-404 {
+    min-height: 70vh;
+}
+
+.texts-404 > .red-text {
+    font-size: 30vh;
+} 
+
+.texts-404 > .blue-grey-text {
+    font-size: 3em;
+}
+
+li {
+    list-style: none;
+}
+
+.card > ul {
+    padding: 0;
+    margin: 12px auto;
+}
+
+.view img {
+    width: 100%;
+    max-height: 70vh;
+}
+
+.comments {
+    display: flex;
+    flex-flow: column wrap; 
+}
